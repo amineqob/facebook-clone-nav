@@ -1,0 +1,106 @@
+
+:root{
+
+    --darkerblue: darken(#4267b2,40%);
+
+
+    
+}
+input{
+
+    margin-top: 0.5em;
+    height: 1rem;
+
+}
+input:focus
+{ 
+    
+    outline: none; 
+
+
+
+}
+section{
+
+
+    margin-left: 8em;
+    margin-top: -0.9em;
+}
+
+section>div {
+
+float: left;
+margin-top: 2em;
+margin-right: 3em;
+
+}
+header nav div {
+margin-top: 1.5em;
+margin-left: 10rem;
+
+}
+.act1{
+margin-right: 1em;
+
+
+}
+
+header{
+
+background: #3b5998;
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 5.7rem;
+
+}
+.fp{
+
+position: absolute;
+font-size: 0.7em;
+margin-top: 0.5em;
+
+}
+.fp:hover{
+
+text-decoration: underline;
+}
+a{
+
+    color: #cccc;
+    text-decoration: none;
+
+
+}
+button {
+
+color: white;
+background-color: #4267b2;
+border-color: #29487d;
+margin-left: -3em;
+position: absolute;
+top: 5.2%;
+cursor: pointer;
+font-size: 0.8em;
+height: 1.5rem;
+
+
+
+}
+button:hover{
+
+    background-color: var(--darkerblue);
+
+}
+label{
+
+    color: white;
+    font-size: 0.8em;
+}
+html,body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
